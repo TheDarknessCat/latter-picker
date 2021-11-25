@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title> Random letter </title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="index.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="index.js"></script>
+  </head>
+  <body id="allBody" >
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./Kaung.png" alt="" width="54.9557 " height="24 " class="d-inline-block align-text-top">
+          KAUNG
+          </a>
+      </div>
+    </nav>
+    <div  class="container">
+      <div class="row align-items-start">
+        <button id="button_container" onclick= "click_me_decrease()"><</button>
+        <div id="letter_container">
+          <div id= "number" style = "font-size: large;">1</div>
+        </div>
+        <button id="button_container" onclick= "click_me_increase()">></button>
+        <img class="figure-img img-fluid rounded" id="image_shower"/>
+        <div class="col align-self-center">
+          <h2 id= "Which">Katakana</h2>
+        </div>
+        <div class="col align-self-center">
+          <button id = "letter_container"onclick="get_random_image()"> Click me! </button>
+        </div>
+
+
+      </div>
+    </div>
+  </body>
+</html>

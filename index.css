@@ -1,0 +1,39 @@
+#allBody {
+    width: 300px;
+    background-color: white;
+    margin: auto;
+}
+
+#button_container {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #da60ff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #23e8ef;
+}
+
+#Which {
+    color: #da60ff;
+}
+
+#letter_container {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #23e8ef;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #da60ff;
+}
